@@ -1,0 +1,57 @@
+#about-aside>div.aside-content>address {
+    text-align: center;
+    font-style: normal;
+}
+#about-aside>div.aside-content>address>#author-avatar-container {
+    width: 172px;
+    height: 172px;
+    display: inline-block;
+    border-radius: 100%;
+    outline: 2px solid #e7e7e7 ;
+    outline-offset:6px;
+    margin-top: 14px;
+}
+#about-aside>div.aside-content>address>#author-avatar-container>img#author-avatar {
+    width: 100%;
+    height: 100% ;
+    border-radius: 100%;
+    opacity: 0.8;
+    transition: opacity 92ms linear ;
+}
+#about-aside>div.aside-content>address>#author-avatar-container:hover>img#author-avatar {
+    opacity: 1;
+}
+#about-aside>div.aside-content>address>strong#author-name {
+    display: block;
+    font-family: var(--main-font);
+    letter-spacing: 3px ;
+    text-transform: capitalize;
+    font-size: 26px;
+    margin: 16px 0 14px 0;
+}
+#about-aside>div.aside-content>address>p#author-bio {
+    margin: unset;
+    line-height: 27px ;
+}
+#about-aside>div.aside-content>address>ul#author-socials {
+    padding: unset ;
+    margin: unset ;
+    margin-top: 15px ;
+    margin-bottom: 10px ;
+}
+#about-aside>div.aside-content>address>ul#author-socials li {
+    display: inline-block;
+    margin-right: 8px;
+}
+#about-aside>div.aside-content>address>ul#author-socials li:last-child {
+    margin-right: unset;
+}
+#about-aside>div.aside-content>address>ul#author-socials li a {
+    color: #888888;
+}
+#about-aside>div.aside-content>address>ul#author-socials li a:hover {
+    color : inherit ;
+}
+#about-aside>div.aside-content>address>ul#author-socials li a i {
+    font-size: 26px ;
+}

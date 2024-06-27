@@ -1,0 +1,15 @@
+#page-header #brand {
+    width: fit-content;
+    display: inline-block;
+}
+#page-header #brand h1 , #page-header #brand h2 {
+    margin: unset ;
+}
+
+#page-header #brand h1 a {
+    color: rgb(99, 99, 99);
+}
+#page-header>#brand>h2 {
+    font-size: 20px;
+    color: rgb(141, 141, 141);
+}

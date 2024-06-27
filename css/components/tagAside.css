@@ -1,0 +1,27 @@
+
+#tag-aside>div.aside-content>ul {
+    text-align: center;
+    padding: unset;
+    margin: unset;
+}
+#tag-aside>div.aside-content>ul>li {
+    list-style: none;
+    display: inline-block;
+    line-height: 55px;
+    margin-right: 6px;
+    
+}
+#tag-aside>div.aside-content>ul>li>a {
+    padding: 10px 15px;
+    text-transform: capitalize;
+    background-color:#f8f8f8;
+    border-radius: 25px;
+}
+#tag-aside>div.aside-content>ul>li>a:hover {
+    background-color: #f1f1f1;
+    border: 1px solid #e6e6e6;
+}
+#tag-aside>div.aside-content>ul>li>a>i {
+    font-size: 18px;
+    vertical-align: -2px;
+}

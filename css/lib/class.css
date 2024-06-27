@@ -1,0 +1,20 @@
+@import url("classes/font-classes.css");
+@import url("classes/grids.css");
+@import url("classes/colors.css");
+@import url("classes/backgrounds.css");
+@import url("classes/boxshadows.css");
+.clear {
+    clear: both;
+}
+.container {
+    width: var(--col-10);
+    margin: 0 auto;
+}
+.active-nav {
+    background-color: #008cc6 !important;
+    color: white;
+    border : unset !important ;
+}
+.active-nav:hover {
+    color: white !important;
+}

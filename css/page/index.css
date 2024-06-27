@@ -1,0 +1,36 @@
+@import url("../lib/bootstrap.css");
+@import url("../components/brand.css");
+@import url("../components/nav.css");
+@import url("../components/slider.css");
+@import url("../components/aside.css");
+@import url("../components/aboutAside.css");
+@import url("../components/categoryAside.css");
+@import url("../components/recentCommentsAside.css");
+@import url("../components/tagAside.css");
+@import url("../components/instagramAside.css");
+@import url("../components/article.css");
+@import url("../components/footer.css");
+#container {
+    background-color: #ffffffe3;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+#main-content {
+    margin-top: 15px;
+}
+/* aside */
+#aside-container {
+    width: var(--col-3);
+    float: left;
+}
+/* article container */
+#article-container  {
+    width: var(--col-8);
+    float: right;
+}
+

@@ -1,0 +1,27 @@
+
+#category-aside>div.aside-content>ul{
+    padding: unset ;
+    margin: unset ;
+}
+#category-aside>div.aside-content>ul>li {
+    list-style: none;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+#category-aside>div.aside-content>ul>li:last-child {
+    margin-bottom: unset;
+}
+#category-aside>div.aside-content>ul>li>a>.category-icon {
+    margin-right: 5px;
+}
+#category-aside>div.aside-content>ul>li>a>.category-icon i {
+    font-size:21px;
+}
+#category-aside>div.aside-content>ul>li>a>.category-name {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+#category-aside>div.aside-content>ul>li>a:hover>.category-name {
+    font-weight: bolder;
+}

@@ -1,0 +1,21 @@
+body {
+
+    background-color: #fafafa;
+    background-image: url("../../img/bg1.png");
+    background-attachment: scroll;
+    color : var(--main-color) ;
+    font-family: var(--main-font);
+}
+a {
+    text-decoration: none ;
+    color :#008cc6 ;
+}
+a:hover {
+    color :var(--main-color) ;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font) ;
+}
+img {
+    max-width: 100%;
+}

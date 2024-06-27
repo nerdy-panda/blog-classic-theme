@@ -1,0 +1,42 @@
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 15px 0;
+}
+.swiper-slide {
+    height: 450px;
+}
+.swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide a img {
+    width: 100%;
+    height: 100% ;
+    border-radius: 3px ;
+    opacity: 0.8;
+    transition: opacity 120ms linear;
+}
+.swiper-slide:hover a img {
+    opacity: 1;
+}
+.swiper-pagination-bullet  {
+    background-color: black;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background-color: white ;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    background: rgb(0,0,0,0.3);
+    color: white;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+}
+.swiper-button-prev::after ,
+.swiper-button-next::after {
+    font-size: 24px;
+}

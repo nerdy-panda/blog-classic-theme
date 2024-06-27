@@ -1,0 +1,48 @@
+#page-footer {
+    margin-top: 25px;
+    border-top: 1px dashed #d5d5d5 ;
+    position: relative;
+}
+#page-footer #footer-row-1 p {
+    text-align: center;
+    margin: unset;
+    font-size: 14px;
+}
+#page-footer #footer-row-1 {
+    padding-top: 22px ;
+}
+#page-footer #footer-row-1 p:first-child {
+    margin-bottom: 20px;
+}
+#page-footer #go-top {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    right: 10px;
+    top: 15px ;
+    border-radius: 100%;
+    background-color: rgb(243, 243, 243);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    opacity: 0.4;
+    transition: opacity 250ms ease-in;
+}
+#page-footer #go-top:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    opacity: 1;
+}
+#page-footer #go-top a {
+    display: block ;
+    width: inherit ;
+    height: inherit ;
+    text-align: center ;
+}
+#page-footer #go-top a img {
+    width: 30px;
+    height: 30px;
+    vertical-align: -30px;
+    transition: transform 250ms linear;
+}
+#page-footer #go-top:hover a img {
+    transform: rotateY(360deg);
+}
